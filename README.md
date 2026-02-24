@@ -90,8 +90,9 @@ Transform natural language into ROS 2 commands using local LLM inference powered
 
 ### **1. Clone Repository**
 ```bash
-git clone https://github.com/yourusername/ros-control-agent.git
-cd ros-control-agent
+git clone https://github.com/shailesh837/ros2_agent_LLM.git
+cd ros2_agent_LLM
+git clone https://huggingface.co/shailesh83/qwen2.5-coder-7b-openvino-int8
 ```
 
 ### **2. Setup Python Environment**
@@ -377,9 +378,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 ## 📧 **Contact**
 
-**Your Name** - [@yourhandle](https://twitter.com/yourhandle)
-
-Project Link: [https://github.com/yourusername/ros-control-agent](https://github.com/yourusername/ros-control-agent)
+Project Link: [https://github.com/shailesh837/ros2_agent_LLM](https://github.com/shailesh837/ros2_agent_LLM)
 
 ---
 
