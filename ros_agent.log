@@ -1,0 +1,17 @@
+[2026-02-23 23:33:58] Action: circle | Topic: /demo/shape/circle | Message: circle
+[2026-02-23 23:34:30] Action: square | Topic: /demo/shape/square | Message: square
+[2026-02-23 23:35:17] Action: gpu | Topic: /demo/device/mode | Message: gpu
+[2026-02-23 23:35:22] Action: npu | Topic: /demo/device/mode | Message: npu
+[2026-02-23 23:35:25] Action: cpu | Topic: /demo/device/mode | Message: cpu
+[2026-02-23 23:35:49] Action: circle | Topic: /demo/shape/circle | Message: circle
+[2026-02-23 23:35:52] Action: square | Topic: /demo/shape/square | Message: square
+[2026-02-23 23:35:59] Action: dot | Topic: /demo/shape/dot | Message: dot
+[2026-02-23 23:44:14] Action: circle | Topic: /demo/shape/circle | Message: circle
+[2026-02-23 23:53:24] Action: circle | Topic: /demo/shape/circle | Message: circle
+[2026-02-23 23:53:35] Action: gpu | Topic: /demo/device/mode | Message: gpu
+[2026-02-24 08:36:03] Action: circle | Topic: /demo/shape/circle | Message: circle
+[2026-02-24 08:40:00] Action: cpu | Topic: /demo/device/mode | Message: cpu
+[2026-02-24 08:43:24] Action: dot | Topic: /demo/shape/dot | Message: dot
+[2026-02-24 08:51:00] Action: circle | Topic: /demo/shape/circle | Message: circle
+[2026-02-24 10:51:31] Action: circle | Topic: /demo/shape/circle | Message: circle
+[2026-02-24 10:51:45] Action: cpu | Topic: /demo/device/mode | Message: cpu

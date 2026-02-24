@@ -1,0 +1,59 @@
+# ROS Control Agent Configuration
+# Maps natural language keywords to Python scripts and ROS topics
+
+actions:
+  circle:
+    keywords: ["circle", "circular", "round", "orbit", "rotate", "cycle"]
+    script: "scripts/do_circle.py"
+    description: "Execute circular motion pattern"
+    ros_topic: "/demo/shape/circle"
+    ros_message: "circle"
+    
+  square:
+    keywords: ["square", "rectangle", "box", "rectangular"]
+    script: "scripts/do_square.py"
+    description: "Execute square motion pattern"
+    ros_topic: "/demo/shape/square"
+    ros_message: "square"
+    
+  dot:
+    keywords: ["dot", "point", "spot", "dots", "dotted"]
+    script: "scripts/do_dot.py"
+    description: "Execute dot pattern"
+    ros_topic: "/demo/shape/dot"
+    ros_message: "dot"
+    
+  cpu:
+    keywords: ["cpu", "processor", "central processing unit", "use cpu"]
+    script: "scripts/set_cpu.py"
+    description: "Set processing mode to CPU"
+    ros_topic: "/demo/device/mode"
+    ros_message: "cpu"
+    
+  npu:
+    keywords: ["npu", "neural processor", "neural processing unit", "use npu"]
+    script: "scripts/set_npu.py"
+    description: "Set processing mode to NPU"
+    ros_topic: "/demo/device/mode"
+    ros_message: "npu"
+    
+  gpu:
+    keywords: ["gpu", "graphics card", "graphics processor", "use gpu"]
+    script: "scripts/set_gpu.py"
+    description: "Set processing mode to GPU"
+    ros_topic: "/demo/device/mode"
+    ros_message: "gpu"
+
+# LLM Settings
+llm:
+  model_url: "http://localhost:9001/v1"
+  model_name: "qwen_coder_int8"
+  temperature: 0.3
+  max_tokens: 50
+
+# General settings
+settings:
+  confidence_threshold: 0.7
+  log_commands: true
+  log_file: "ros_agent.log"
+  simulate_ros: true  # Set to false when ROS is available
